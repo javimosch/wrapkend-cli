@@ -1,0 +1,21 @@
+{
+  "name": "wrapkend-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "dev": "nodemon --exec 'cross-env DEBUG_COLORS=true DEBUG=wrapkend-cli:* node test' --watch . -e js",
+    "release": "np",
+    "test":"DEBUG_COLORS=true DEBUG=wrapkend-cli:* node test.js"
+  },
+  "author": "Javier Leandro Arancibia <arancibiajav@gmail.com>",
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "np": "*"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "axios": "^0.18.0"
+  }
+}
