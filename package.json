@@ -1,9 +1,9 @@
 {
   "name": "wrapkend-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:javimosch/wrapkend-cli.git",
   "scripts": {
     "dev": "nodemon --exec 'cross-env DEBUG_COLORS=true DEBUG=wrapkend-cli:* node test' --watch . -e js",
     "release": "np",
